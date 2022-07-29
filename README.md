@@ -10,10 +10,8 @@ There are 3 grades of the damage:
 * 2 represents a medium amount of damage
 * 3 represents almost complete destruction
 
-
-
-
-# The largest heading
-## The second largest heading
-###### The smallest heading
-> Text that is a quote
+We attempted to get a best prediction for the given data set. To do this we followed these steps:
+1. Category encoding (using two encoding systems, target encoder and dummy encoder)
+2. Linear regression to check p values and do some feature selection
+3. Grid search to tune hyperparameters
+4. Predictions with GradientBoostingClassifier, XGBClassifier, Random forest
