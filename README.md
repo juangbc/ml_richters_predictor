@@ -15,3 +15,6 @@ We attempted to get a best prediction for the given data set. To do this we foll
 2. Linear regression to check p values and do some feature selection
 3. Grid search to tune hyperparameters
 4. Predictions with GradientBoostingClassifier, XGBClassifier, Random forest
+
+Tu successfully run this repository you need to import the richter data files and create a local directory 
+called data, containing the relevant csv files.
